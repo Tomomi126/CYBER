@@ -436,24 +436,27 @@
 
         <!-- Phần phải: Sự kiện -->
         <div class="event-container">
-            <div class="event-header">SỰ KIỆN</div>
-            <div class="event-list">
-                <div class="event-item">
-                    <div class="event-date">Tháng Sáu 6, 2025</div>
-                    <a href="https://hoangthanhthanglong.vn/event1" class="event-title">Lễ Dâng Hương, Khai Xuân Ất Tỵ 2025 tại Hoàng Thành Thăng Long</a>
-                </div>
-
-                <div class="event-item">
-                    <div class="event-date">Tháng Một 22, 2025</div>
-                    <a href="https://hoangthanhthanglong.vn/event2" class="event-title">Tái Hiện Nghi Lễ Cung Đình Xưa tại Hoàng Thành Thăng Long</a>
-                </div>
-
-                <div class="event-item">
-                    <div class="event-date">Tháng Mười Hai 25, 2024</div>
-                    <a href="https://hoangthanhthanglong.vn/event3" class="event-title">Lễ Bàn Giao Đất Quốc Phòng, Kỳ Đài (Cột Cờ Hà Nội)</a>
-                </div>
+            <div class="event-header">Bài viết có liên quan</div>
+              <div class="event-list">
+                 <div class="event-item">
+                     <div class="event-date">Thứ bảy - 26/10/2019</div>
+                     <a href="https://tuoitre.tdmu.edu.vn/danh-muc/ren-luyen-dao-duc-tac-phong/infographic-van-hoa-ung-xu-tren-khong-gian-mang" class="event-title">Infographic – Văn hóa ứng xử trên không gian mạng</a>
+                 </div>
+     
+                 <div class="event-item">
+                     <div class="event-date">Thứ bảy - 06/11/2021</div>
+                     <a href="https://dantri.com.vn/giao-duc/van-nan-bat-nat-qua-mang-va-nhung-dieu-can-biet-20211105231849420.htm" class="event-title">Vấn nạn bắt nạt qua mạng và những điều cần biết
+     </a>
+                 </div>
+     
+                 <div class="event-item">
+                     <div class="event-date">Thứ năm - 29/02/2024</div>
+                     <a href="https://bantuyengiao.cantho.gov.vn/vi/news/tai-lieu-nghien-cuu-hoc-tap-bao-cao-vien/hiem-hoa-tu-bao-luc-mang-1722.html" class="event-title">Hiểm họa từ bạo lực mạng</a>
+                 </div>
+              </div>
             </div>
-        </div>
+         </div>   
+     </div>     
 </div>
 
 
@@ -517,150 +520,154 @@
 </body>
 
 <style>
-        /* Thiết lập chung cho footer */
-        .site-footer {
-            background-color: #2c2f34; /* Nền màu xám */
-            color: #ffffff; /* Màu chữ trắng */
-            padding: 20px 0;
-            font-family: Arial, sans-serif;
-        }
+    /* Thiết lập chung cho footer */
+    .site-footer {
+        background-color: #2c2f34; /* Nền màu xám */
+        color: #ffffff; /* Màu chữ trắng */
+        padding: 20px 0;
+        font-family: Arial, sans-serif;
+    }
+    .footer-container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .footer-column {
+        width: 30%;
+        padding: 10px;
+        text-align: left;
+    }
+    .footer-column h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .footer-column p, .footer-column a {
+        font-size: 14px;
+        line-height: 1.6;
+        color: #ffffff;
+        text-decoration: none;
+    }
+    .footer-bottom {
+        text-align: center;
+        padding: 15px;
+        font-size: 14px;
+        border-top: 1px solid #444;
+    }
+    .back-to-top {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #ff9800;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        display: none;
+        font-size: 16px;
+    }
+    @media (max-width: 768px) {
         .footer-container {
-            max-width: 1200px;
-            margin: auto;
-            padding: 20px;
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
+            flex-direction: column;
+            text-align: center;
         }
         .footer-column {
-            width: 30%;
-            padding: 10px;
-            text-align: left;
+            width: 100%;
         }
-        .footer-column h3 {
-            font-size: 18px;
-            margin-bottom: 10px;
-        }
-        .footer-column p, .footer-column a {
-            font-size: 14px;
-            line-height: 1.6;
-            color: #ffffff;
-            text-decoration: none;
-        }
-        .footer-bottom {
-            text-align: center;
-            padding: 15px;
-            font-size: 14px;
-            border-top: 1px solid #444;
-        }
-        .back-to-top {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background-color: #ff9800;
-            color: white;
-            padding: 10px 15px;
-            border-radius: 5px;
-            cursor: pointer;
-            display: none;
-            font-size: 16px;
-        }
-        @media (max-width: 768px) {
-            .footer-container {
-                flex-direction: column;
-                text-align: center;
-            }
-            .footer-column {
-                width: 100%;
-            }
-        }
-    </style>
+    }
+</style>
 </head>
 <body>
 
 <!-- Footer -->
 <footer class="site-footer">
-    <div class="footer-container">
-        <!-- Cột 1: Thông tin tổ chức -->
-        <div class="footer-column">
-            <h3>TRUNG TÂM BẢO TỒN DI SẢN THĂNG LONG – HÀ NỘI</h3>
-            <p>Quyết định thành lập số: 3855/QĐ-UBND ngày 01/9/2006 của Ủy ban Nhân dân Tp. Hà Nội</p>
-            <p>Địa chỉ: Số 19C đường Hoàng Diệu, P. Điện Biên Phủ, Q. Ba Đình, TP. Hà Nội</p>
-        </div>
-
-        <!-- Cột 2: Thông tin liên hệ -->
-        <div class="footer-column">
-            <h3>LIÊN HỆ</h3>
-            <p>📞 Liên hệ tham quan: <strong>+84-437345427</strong></p>
-            <p>📞 Đặt vé tour đêm: <strong>+84-848455222</strong></p>
-            <p>📠 Fax: +84-4-37345926</p>
-            <p>📩 Email: <a href="mailto:info@hoangthanhthanglong.vn">info@hoangthanhthanglong.vn</a></p>
-        </div>
-
-        <!-- Cột 3: Thống kê truy cập -->
-        <div class="footer-column">
-            <h3>THỐNG KÊ TRUY CẬP</h3>
-            <p>👁️ Lượt xem hôm nay: <strong id="views-today">0</strong></p>
-            <p>📊 Tổng truy cập: <strong id="total-visits">0</strong></p>
-            <p>👁️ Lượt xem trang: <strong id="page-views">0</strong></p>
-        </div>
+<div class="footer-container">
+    <!-- Cột 1: Thông tin tổ chức -->
+    <div class="footer-column">
+        <h3>NHÓM PHÓNG SỰ BẠO LỰC MẠNG A12 K49 TRƯỜNG THPT KIM LIÊN</h3>
+        <h4>Tên các thành viên trong nhóm:</h4>
+            <ul>Nghiêm Hà An (nội dung)</ul>
+       <ul>Hoàng Vân Anh (nội dung)</ul>
+<ul>Vũ Nguyễn Ngọc Anh (khung code)</ul>
+<ul>Trần Vy Hảo (nhóm trưởng)</ul>
+<ul>Nguyễn Hồng Ngọc (nội dung)</ul>
+<ul>Nguyễn Thanh Thảo (khung code)<ul>
     </div>
 
-    <!-- Bản quyền -->
-    <div class="footer-bottom">
-        Bản quyền © 2025 HOANGTHANHTHANGLONG.VN thuộc Trung tâm Bảo tồn di sản Thăng Long - Hà Nội.
+    <!-- Cột 2: Thông tin liên hệ -->
+    <div class="footer-column">
+        <h3>LIÊN HỆ</h3>
+        <p>📞 Liên hệ đường dây nóng hỗ trợ nạn nhân của bạo lực mạng (CyberHotline): <strong>0343332112</strong></p>
+        <p>📞 SĐT nhóm trưởng Trần Vy Hảo: <strong>0818835477</strong></p>
+
     </div>
+
+    <!-- Cột 3: Thống kê truy cập -->
+    <div class="footer-column">
+        <h3>THỐNG KÊ TRUY CẬP</h3>
+        <p>👁️ Lượt xem hôm nay: <strong id="views-today">0</strong></p>
+        <p>📊 Tổng truy cập: <strong id="total-visits">0</strong></p>
+        <p>👁️ Lượt xem trang: <strong id="page-views">0</strong></p>
+    </div>
+</div>
+
+<!-- Bản quyền -->
+<div class="footer-bottom">
+    Bản quyền © 2025 NHÓM PHÓNG SỰ BẠO LỰC MẠNG A12 K49
+</div>
 </footer>
 
 <!-- Nút quay lại đầu trang -->
 <button class="back-to-top" onclick="scrollToTop()">▲ Lên đầu trang</button>
 
 <script>
-    function updatePageViews() {
-        let today = new Date().toDateString(); // Ngày hiện tại
-        let storedDate = localStorage.getItem("lastVisitDate"); // Lần truy cập cuối
-        let viewsToday = parseInt(localStorage.getItem("viewsToday")) || 0;
-        let totalVisits = parseInt(localStorage.getItem("totalVisits")) || 0;
-        let pageViews = parseInt(localStorage.getItem("pageViews")) || 0;
+function updatePageViews() {
+    let today = new Date().toDateString(); // Ngày hiện tại
+    let storedDate = localStorage.getItem("lastVisitDate"); // Lần truy cập cuối
+    let viewsToday = parseInt(localStorage.getItem("viewsToday")) || 0;
+    let totalVisits = parseInt(localStorage.getItem("totalVisits")) || 0;
+    let pageViews = parseInt(localStorage.getItem("pageViews")) || 0;
 
-        if (storedDate !== today) {
-            // Nếu ngày đã thay đổi, reset "Lượt xem hôm nay"
-            viewsToday = 0;
-            localStorage.setItem("lastVisitDate", today);
-        }
-
-        viewsToday++; // Tăng lượt xem hôm nay
-        totalVisits++; // Tăng tổng truy cập
-        pageViews++; // Tăng tổng lượt xem trang
-
-        // Lưu vào localStorage
-        localStorage.setItem("viewsToday", viewsToday);
-        localStorage.setItem("totalVisits", totalVisits);
-        localStorage.setItem("pageViews", pageViews);
-
-        // Cập nhật UI
-        document.getElementById("views-today").innerText = viewsToday;
-        document.getElementById("total-visits").innerText = totalVisits;
-        document.getElementById("page-views").innerText = pageViews;
+    if (storedDate !== today) {
+        // Nếu ngày đã thay đổi, reset "Lượt xem hôm nay"
+        viewsToday = 0;
+        localStorage.setItem("lastVisitDate", today);
     }
 
-    // Gọi hàm cập nhật khi trang được tải
-    updatePageViews();
+    viewsToday++; // Tăng lượt xem hôm nay
+    totalVisits++; // Tăng tổng truy cập
+    pageViews++; // Tăng tổng lượt xem trang
 
-    // Hiển thị nút quay lại đầu trang khi cuộn xuống
-    window.onscroll = function() {
-        var btn = document.querySelector(".back-to-top");
-        if (document.documentElement.scrollTop > 200) {
-            btn.style.display = "block";
-        } else {
-            btn.style.display = "none";
-        }
-    };
+    // Lưu vào localStorage
+    localStorage.setItem("viewsToday", viewsToday);
+    localStorage.setItem("totalVisits", totalVisits);
+    localStorage.setItem("pageViews", pageViews);
 
-    // Hàm cuộn lên đầu trang
-    function scrollToTop() {
-        window.scrollTo({top: 0, behavior: 'smooth'});
+    // Cập nhật UI
+    document.getElementById("views-today").innerText = viewsToday;
+    document.getElementById("total-visits").innerText = totalVisits;
+    document.getElementById("page-views").innerText = pageViews;
+}
+
+// Gọi hàm cập nhật khi trang được tải
+updatePageViews();
+
+// Hiển thị nút quay lại đầu trang khi cuộn xuống
+window.onscroll = function() {
+    var btn = document.querySelector(".back-to-top");
+    if (document.documentElement.scrollTop > 200) {
+        btn.style.display = "block";
+    } else {
+        btn.style.display = "none";
     }
+};
+
+// Hàm cuộn lên đầu trang
+function scrollToTop() {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+}
 </script>
 
 </body>
